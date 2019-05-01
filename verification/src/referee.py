@@ -10,9 +10,9 @@ class Referee(RefereeRank):
     TESTS = TESTS
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
-    DEFAULT_FUNCTION_NAME = "checkio"
+    DEFAULT_FUNCTION_NAME = "absolute_sorting"
     FUNCTION_NAMES = {
-        "python_3": "checkio",
+        "python_3": "absolute_sorting",
         "js_node": "absoluteSorting"
     }
     ENV_COVERCODE = {

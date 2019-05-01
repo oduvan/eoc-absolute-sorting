@@ -4,7 +4,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
         var io = new extIO({
             functions: {
                 js: 'absoluteSorting',
-                python: 'checkio'
+                python: 'absolute_sorting'
             }
         });
         io.start();
