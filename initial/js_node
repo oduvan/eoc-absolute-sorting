@@ -1,17 +1,14 @@
-"use strict";
 
-function absoluteSorting(numbers){
+export function absoluteSorting(numbers: number[]) {
     return numbers
 }
 
-var assert = require('assert');
+import * as assert from 'assert';
 
-if (!global.is_checking) {
-    console.log('Example:')
-    console.log(absoluteSorting([-20, -5, 10, 15]))
-    
-    assert.deepEqual(absoluteSorting([-20, -5, 10, 15]), [-5, 10, 15, -20], "Example");
-    assert.deepEqual(absoluteSorting([1, 2, 3, 0]), [0, 1, 2, 3], "Positive numbers");
-    assert.deepEqual(absoluteSorting([-1, -2, -3, 0]), [0, -1, -2, -3], "Negative numbers");
-    console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
-}
+console.log('Example:')
+console.log(absoluteSorting([-20, -5, 10, 15]))
+
+assert.deepEqual(absoluteSorting([-20, -5, 10, 15]), [-5, 10, 15, -20]);
+assert.deepEqual(absoluteSorting([1, 2, 3, 0]), [0, 1, 2, 3]);
+assert.deepEqual(absoluteSorting([-1, -2, -3, 0]), [0, -1, -2, -3]);
+console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
